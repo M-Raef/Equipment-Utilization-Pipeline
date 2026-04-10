@@ -1,0 +1,15 @@
+tracker_type: botsort
+track_high_thresh: 0.45
+track_low_thresh: 0.20
+new_track_thresh: 0.55
+track_buffer: 150         # This is your 5-second memory fix
+match_thresh: 0.75
+gmc_method: sparseOptFlow
+proximity_thresh: 0.5
+appearance_thresh: 0.25
+with_reid: False
+
+# --- THE MISSING VARIABLES THAT CAUSE THE CRASH ---
+fuse_score: True
+mot20: False
+min_box_area: 10

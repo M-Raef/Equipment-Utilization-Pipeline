@@ -1,0 +1,7 @@
+ultralytics
+opencv-python
+numpy
+torch
+torchvision
+torchaudio --index-url https://download.pytorch.org/whl/cu126
+kafka-python

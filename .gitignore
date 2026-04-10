@@ -1,0 +1,24 @@
+# Python environment
+env/
+venv/
+__pycache__/
+*.py[cod]
+
+# AI Model Weights
+*.pt
+*.onnx
+
+# Local Data & Media
+latest_frame.jpg
+
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+*.mp4
+outputs/
+latest_frame.jpg
