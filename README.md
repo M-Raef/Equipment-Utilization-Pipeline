@@ -55,8 +55,8 @@ A utility script designed for high-resolution video rendering. It disables the K
 
 ### 1. Clone & Environment Setup
 ```bash
-git clone [https://github.com/M-Raef/eagle-vision-pipeline.git](https://github.com/M-Raef/eagle-vision-pipeline.git)
-cd eagle-vision-pipeline
+git clone [https://github.com/M-Raef/Equipment-Utilization-Pipeline.git](https://github.com/M-Raef/Equipment-Utilization-Pipeline.git)
+cd Equipment-Utilization-Pipeline
 python -m venv env
 
 # Activate environment (Windows)
@@ -68,7 +68,7 @@ python -m venv env
 pip install -r requirements.txt
 
 # For NVIDIA GPU Acceleration (Highly Recommended):
-pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cu121](https://download.pytorch.org/whl/cu126)
+pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cu126](https://download.pytorch.org/whl/cu126)
 ```
 
 ### 3. Start the Infrastructure (Docker)
