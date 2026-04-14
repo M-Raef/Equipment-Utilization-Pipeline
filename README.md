@@ -1,4 +1,4 @@
-# 🚜 Eagle Vision - Real-Time Equipment Utilization Pipeline
+# 🚜Real-Time Equipment Utilization Pipeline
 
 A real-time, microservices-based computer vision pipeline designed to track and analyze heavy construction equipment utilization. This system processes video feeds to detect machinery, track utilization states (Active/Inactive), classify specific work activities, and stream live analytics to an Apache Kafka broker, persisting data to a PostgreSQL database with a live Streamlit dashboard.
 
